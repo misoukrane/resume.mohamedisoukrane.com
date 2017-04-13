@@ -2,7 +2,6 @@ import React, { Component } from 'react';
 
 import Box from 'grommet/components/Box';
 import Split from 'grommet/components/Split';
-import Section from 'grommet/components/Section';
 
 import Experience from './Experience';
 import RawExperiences from './RawExperiences';
