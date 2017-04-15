@@ -13,13 +13,13 @@ class ResumeContent extends Component {
   render() {
     return (
       <Article colorIndex='light-2'>
-        <Section id='experience'>
-          <Heading align='center'>Experience</Heading>
-          <Experiences />
-        </Section>
         <Section id='skills' full={true}>
           <Heading align='center'>Skills</Heading>
           <Skills />
+        </Section>
+        <Section id='experience'>
+          <Heading align='center'>Experience</Heading>
+          <Experiences />
         </Section>
         <Box pad='medium' textAlign='center' colorIndex='grey-4-a'>
           <Footer />
