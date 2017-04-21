@@ -23,7 +23,7 @@ class Skills extends Component {
             type='spiral'
             series={RawSkills.programmingLanguages}/>
           <br/>
-          <Heading tag='h4'>FronEnd</Heading>
+          <Heading tag='h4'>FrontEnd</Heading>
           <Meter
             size='xsmall'
             type='spiral'
@@ -37,7 +37,7 @@ class Skills extends Component {
             type='spiral'
             series={RawSkills.architectures}/>
           <br/>
-          <Heading tag='h4'>Soft</Heading>
+          <Heading tag='h4'>Soft Skills</Heading>
           <Meter
             size='xsmall'
             type='spiral'

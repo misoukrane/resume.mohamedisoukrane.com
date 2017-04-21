@@ -29,22 +29,28 @@ class SideNavigation extends Component {
             <Label style={{margin:0}}>Software Engineer</Label>
             <br/>
             <InfoLinks />
-            <Anchor
-              icon={
-                <LinkNext />
-              }
-              label='Skills'
-              href='#skills'
-              primary={true}
-              reverse={false} />
-            <Anchor
-              icon={
-                <LinkNext />
-              }
-              label='experience'
-              href='#experience'
-              primary={true}
-              reverse={false} />
+            <ul style={{listStyleType: 'none', marginLeft: 0}}>
+              <li>
+                <Anchor
+                  icon={
+                    <LinkNext />
+                  }
+                  label='Skills'
+                  href='#skills'
+                  primary={true}
+                  reverse={false} />
+              </li>
+              <li>
+                <Anchor
+                  icon={
+                    <LinkNext />
+                  }
+                  label='experience'
+                  href='#experience'
+                  primary={true}
+                  reverse={false} />
+              </li>
+            </ul>
             <br />
             <Paragraph margin='none'>
               Built with {reactLink} & {grommetLink}
